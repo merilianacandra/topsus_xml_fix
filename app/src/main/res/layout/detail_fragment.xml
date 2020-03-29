@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+        <!--        TEMPAT TANGGAL LAHIR-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tempat Tanggal Lahir"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Umadiwang, 04 Mei 1999"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--        ALAMAT-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabanan, Bali, Indonesia"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--        JENIS KELAMIN-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perempuan"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--        AGAMA-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agama"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hindu"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--        GOLONGAN DARAH-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Golongan Darah"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--        STATUS PERKAWINAN-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Perkawinan"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Belum Kawin"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!--        PEKERJAANN-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mahasiswa"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--        KEWARGANEGARAAN-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kewarganegaraan"
+            android:textColor="@color/tosca"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/ungu">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WNI"
+                android:textColor="@color/white"
+                android:textSize="8pt"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
