@@ -2,16 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/background"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="272dp"
-        android:layout_height="586dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:orientation="vertical">
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,7 +25,6 @@
         <TextView
             android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:gravity="center"
             android:text="Silahkan masukan foto dengan maksimal ukuran foto adalah 2MB"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
@@ -59,9 +59,8 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_width="280dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:gravity="center"
             android:text="Silahkan masukan NIK sesuai dengan yang tertera pada KTP"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
@@ -74,23 +73,20 @@
             android:layout_marginBottom="15dp"
             android:orientation="horizontal">
 
-            <!--            <View-->
-            <!--                android:layout_width="@dimen/spacing_medium"-->
-            <!--                android:layout_height="0dp" />-->
-
             <androidx.appcompat.widget.AppCompatEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/tosca"
                 android:gravity="center"
-                android:hint="Masukan NIK"
+                android:hint="NIK"
                 android:maxLines="1"
                 android:singleLine="true"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                 android:textColor="@color/white"
-                android:textColorHint="@color/white"
+                android:textColorHint="@color/buram"
                 android:textCursorDrawable="@color/tosca"
-                android:textStyle="bold">
+                android:textStyle="normal"
+                android:inputType="number">
             </androidx.appcompat.widget.AppCompatEditText>
         </LinearLayout>
 
